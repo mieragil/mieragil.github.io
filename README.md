@@ -1,3 +1,3 @@
 This is my portfolio website
 
-Access at <a href="https://mierdev.xyz" target="_blank">mierdev.xyz</a>
+Access at <a target="_blank" href="https://mierdev.xyz">mierdev.xyz</a>
