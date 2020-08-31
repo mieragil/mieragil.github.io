@@ -105,8 +105,10 @@
   }
 
   .bg-custom-black{
-    background-color: #292a2c;
+    background-color: #1d1d1f;
+
   }
+ 
 
   .hero-card{
     padding: 60px 20px;
@@ -137,6 +139,62 @@
       padding: 0px;
     }
   }
+
+  h2, h1, h4, h5, h6{
+    font-family: Helvetica, sans-serif;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 4.5em;
+    letter-spacing: 5px;
+  }
+
+  h4{
+    font-weight: bold;
+    font-size: 2em;
+    /* letter-spacing: 5px; */
+  }
+  
+  h5{
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+  }
+
+  .p-desc{
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #878a8f;
+  }
+
+  .button-neumorphism{
+    border-radius: 13px;
+    background: #212121;
+    box-shadow:  2px -2px 4px #101010, 
+          -2px 2px 4px #323232;
+    font-weight: 500; 
+    font-family: Helvetica, sans-serif;
+    border:0;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button-neumorphism:hover{
+    color: #66fcf1;
+    transition: 500ms;
+  }
+
+  .bg-neumorp{
+    border-radius: 20px;
+background: linear-gradient(145deg, #202021, #252728);
+box-shadow:  2px -2px 4px #101010, 
+-2px 2px 4px #323232;
+    overflow: hidden;
+  }
+
+
 
 
   
