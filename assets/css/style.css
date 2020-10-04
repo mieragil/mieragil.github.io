@@ -140,7 +140,7 @@
     }
   }
 
-  h2, h1, h4, h5, h6{
+  h2, h3, h1, h4, h5, h6{
     font-family: Helvetica, sans-serif;
   }
 
@@ -149,6 +149,7 @@
     font-size: 4.5em;
     letter-spacing: 5px;
   }
+
 
   h4{
     font-weight: bold;
@@ -168,35 +169,21 @@
     color: #878a8f;
   }
 
-  .button-neumorphism{
-    border-radius: 13px;
-    background: #212121;
-    box-shadow:  2px -2px 4px #101010, 
-          -2px 2px 4px #323232;
-    font-weight: 500; 
-    font-family: Helvetica, sans-serif;
-    border:0;
-    color: white;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-  .button-neumorphism:hover{
-    color: #66fcf1;
-    transition: 500ms;
-  }
-
-  .bg-neumorp{
-    border-radius: 20px;
-background: linear-gradient(145deg, #202021, #252728);
-box-shadow:  2px -2px 4px #101010, 
--2px 2px 4px #323232;
-    overflow: hidden;
-  }
 
 
 
 
   
+.bg-showcase{ 
+  background-attachment: default;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  transition: all .5s;
+}
 
+.text-main{
+  line-height: 1.8; font-size: 15px; letter-spacing: 1px;
+}
 
